@@ -7,6 +7,8 @@ correct them so that all users, whether or not they have JavaScript, can access 
 without JavaScript. What HTML do you need to write so that JavaScript-less users receive a player to
 hear the doorbell sound? What inaccessible, deprecated attribute needs to go away?
 
+onclick needs to go away
+
 * Task Two: Your second task is, via the DOM, to swap out that HTML with a simpler structure that
 presents a `Ring the Doorbell` control to users with JavaScript--much like the original contents of
 the `index.html`. The swap should happen as soon as the DOM has loaded. Use CSS to style the control

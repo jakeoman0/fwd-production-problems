@@ -19,8 +19,20 @@ body {
 }
 
 /* ===== LAYOUT STYLES ===== */
+.invisible {
+  display: none;
+}
+#js-audio {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  transition: 0.4s;
+}
 
-
+#js-audio:hover {
+  color: cyan;
+  transition: 0.4s;
+}
 /* ===== MODULAR STYLES ===== */
 
 
